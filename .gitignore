@@ -1,33 +1,67 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Dependency directories
+node_modules/
 
-# IntelliJ
-*.iml
+# Build output
+www/
+platforms/
+plugins/
+
+# Capacitor
+ios/
+android/
+
+# Generated files
+dist/
+out-tsc/
+
+# Ionic environment files
+src/environments/environment*.ts
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Compiled files
+*.js
+*.js.map
+*.d.ts
+
+# TypeScript intermediate output
+*.tsbuildinfo
+
+# IDE and editor settings
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.vscode/
+*.sublime-workspace
 
-# Keystore files
-*.jks
-*.keystore
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Coverage reports
+coverage/
 
-# Android Profiling
-*.hprof
+# Ionic Lab
+*.ionic-lab
+
+# Cordova-specific files
+node_modules/
+.npm/
+
+# Capacitor build artifacts
+ios/
+android/
+capacitor.config.ts
+capacitor.config.json
+capacitor.config.*
+
+# Other temporary files
+*.swp
+~$*
